@@ -1,4 +1,24 @@
-<script setup lang="ts">
+<template>
+  <router-view></router-view>
+</template>
+
+<script lang="ts" setup>
+  import { onMounted } from 'vue'
+  onMounted(() => {
+    console.log("App monté")
+  })
+</script>
+
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+</style>
+
+<!-- <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -27,4 +47,4 @@ import HelloWorld from './components/HelloWorld.vue'
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
-</style>
+</style> -->
