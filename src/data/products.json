@@ -1,0 +1,5 @@
+[
+    { "id": 1, "name": "Smartphone A", "description": "Description A", "price": 299 },
+    { "id": 2, "name": "Smartphone B", "description": "Description B", "price": 399 },
+    { "id": 3, "name": "Smartphone C", "description": "Description C", "price": 499 }
+]
